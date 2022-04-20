@@ -13,7 +13,7 @@ Original Web Layout.
 
 ## Description
 ### Purpose:
-Publich my first web portfolio
+Publish my first web portfolio
 
 ### Technology used:
 * **HTML**
