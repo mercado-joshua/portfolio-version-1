@@ -1,0 +1,38 @@
+.footer-section {
+    padding: 1rem 0;
+
+    .footerbox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        background: #fff;
+        padding: .5rem;
+
+        > .title {
+            font-size: 2rem;
+        }
+
+        > .social-links {
+            display: flex;
+            gap: 1.5rem;
+
+            > .item {
+                .link {
+                    background: none;
+                    text-decoration: none;
+                    color: #000;
+
+                    > .icon {
+                        font-size: 1.5rem;
+                    }
+                }
+
+                &::before {
+                    display: none;
+                }
+            }
+            
+        }
+    }
+}

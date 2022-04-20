@@ -1,0 +1,152 @@
+@use '../utils/breakpoints';
+
+.portfolio-section {
+    padding: 1rem 0;
+
+    .introbox,
+    .bannerbox,
+    .portfoliobox {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .bannerbox {
+        padding-bottom: 1rem;
+        
+        > .contentbox {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            > .titlebox {
+                display: flex;
+                flex-direction: column;
+                gap: .5rem;  
+
+                > .tag {
+                    align-self: flex-start;
+                }
+            }
+
+            > .contact-button {
+                align-self: flex-start;
+                margin: 0;
+            }
+        }
+
+        @include breakpoints.media-breakpoint-up(400px) {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        @include breakpoints.media-breakpoint-up(500px) {
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+
+        @include breakpoints.media-breakpoint-up(600px) {
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+
+        @include breakpoints.media-breakpoint-up(768px) {
+            display: grid;
+            grid-template-columns: 1fr 40%;
+            align-items: center;
+            padding: 0; // reset all
+            padding-top: 1rem;
+            padding-bottom: 2rem;
+
+            > .contentbox {
+                order: -1;
+            }
+        }
+    }
+
+    .headerbox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        background: #fff;
+        padding: .5rem;
+
+        > .title {
+            font-size: 2rem;
+        }
+    }
+
+    .portfoliobox {
+        > .portfolio-list {
+            width: 100%;
+        }
+
+        @include breakpoints.media-breakpoint-up(400px) {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        @include breakpoints.media-breakpoint-up(500px) {
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+
+        
+        @include breakpoints.media-breakpoint-up(600px) {
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+
+        
+        @include breakpoints.media-breakpoint-up(768px) {
+            padding: 0; // reset
+            padding-bottom: 2rem;
+        }
+
+    }
+}
+
+.portfolio-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    > .contentbox {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+
+        > .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: .5rem;
+        }
+
+        > .actions {
+            > button {
+                margin: 0;
+            }
+        }
+    }
+
+    @include breakpoints.media-breakpoint-up(768px) {
+        display: grid;
+        grid-template-columns: 40% 1fr;
+
+        > .imagebox {
+            > .image {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+}
