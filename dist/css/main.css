@@ -127,11 +127,11 @@ a {
 }
 @media only screen and (min-width: 400px) {
   .portfolio-section .bannerbox {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
-@media only screen and (min-width: 500px) {
+/* @media only screen and (min-width: 500px) {
   .portfolio-section .bannerbox {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -142,7 +142,7 @@ a {
     padding-left: 3rem;
     padding-right: 3rem;
   }
-}
+} */
 @media only screen and (min-width: 768px) {
   .portfolio-section .bannerbox {
     display: grid;
@@ -187,11 +187,11 @@ a {
 }
 @media only screen and (min-width: 400px) {
   .portfolio-section .portfoliobox {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
-@media only screen and (min-width: 500px) {
+/* @media only screen and (min-width: 500px) {
   .portfolio-section .portfoliobox {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -202,7 +202,7 @@ a {
     padding-left: 3rem;
     padding-right: 3rem;
   }
-}
+} */
 @media only screen and (min-width: 768px) {
   .portfolio-section .portfoliobox {
     padding: 0;
@@ -298,11 +298,11 @@ a {
 }
 @media only screen and (min-width: 400px) {
   .contact-section {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
-@media only screen and (min-width: 500px) {
+/* @media only screen and (min-width: 500px) {
   .contact-section {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -313,7 +313,7 @@ a {
     padding-left: 3rem;
     padding-right: 3rem;
   }
-}
+} */
 @media only screen and (min-width: 768px) {
   .contact-section {
     padding: 0;
