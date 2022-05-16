@@ -114,11 +114,24 @@ a {
           flex-direction: column;
   gap: 0.5rem;
 }
+
+.portfolio-section .bannerbox > .contentbox > .titlebox > .tags {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 .portfolio-section .bannerbox > .contentbox > .titlebox > .tag {
   -webkit-align-self: flex-start;
       -ms-flex-item-align: start;
           align-self: flex-start;
 }
+
 .portfolio-section .bannerbox > .contentbox > .contact-button {
   -webkit-align-self: flex-start;
       -ms-flex-item-align: start;
